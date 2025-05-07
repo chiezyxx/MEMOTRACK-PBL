@@ -3,7 +3,7 @@
 @endphp
 
 <x-layout title="Attendance" role="{{$role}}">
-    <!-- Attendance Header -->
+    <!-- Attendance Headers -->
     <header class="mb-8">
         <h2 class="text-3xl font-bold text-gray-900">Attendance</h2>
         <p class="text-gray-600 mt-2">{{ $role === 'dosen' ? 'Create and manage attendance for your courses.' : 'Mark your attendance for course sessions.' }}</p>
